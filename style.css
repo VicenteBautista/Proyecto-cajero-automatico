@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(215, 213, 213);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(66, 161, 178);
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 60px;    
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 90px;
+    
+}
+
+.botones{
+    background-color: rgb(66, 161, 178);
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+
+.botones:hover{
+    background-color: rgb(51, 112, 122);
+}
+
+.inputDatos{
+    border-radius: 5px;
+    height: 25px;
+    
+}
