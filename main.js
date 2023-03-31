@@ -26,6 +26,7 @@ document.querySelector("#ingresar").onclick = () => {
     }else{
         alert("Datos invalidos, por favor intentelo otra vez")
     }
+    
 }
 
 
